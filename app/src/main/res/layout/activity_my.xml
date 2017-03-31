@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+       <com.example.dev.PlayView
+           android:id="@+id/myView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/Channel"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"/>
+
+       <Spinner
+           android:id="@+id/Channel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/startplay"
+           android:layout_alignLeft="@+id/LiveView1"
+           android:layout_alignRight="@+id/LiveView1"
+           android:background="@android:color/transparent" />
+
+       <Button
+           android:id="@+id/startplay"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:layout_marginBottom="147dp"
+           android:layout_marginLeft="84dp"
+           android:text="start" />
+
+       <Button
+           android:id="@+id/palyback"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/find"
+           android:layout_alignBottom="@+id/find"
+           android:layout_toRightOf="@+id/find"
+           android:text="play" />
+
+       <Button
+           android:id="@+id/stopplayback"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/palyback"
+           android:layout_alignBottom="@+id/palyback"
+           android:layout_toRightOf="@+id/palyback"
+           android:text="stop" />
+
+       <Button
+           android:id="@+id/resume"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/find"
+           android:layout_alignTop="@+id/pause"
+           android:text="resume" />
+
+       <Button
+           android:id="@+id/backword"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/resume"
+           android:layout_toRightOf="@+id/resume"
+           android:text="&lt;&lt;" />
+
+       <Button
+           android:id="@+id/forword"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/backword"
+           android:layout_alignTop="@+id/backword"
+           android:layout_toRightOf="@+id/backword"
+           android:text=">>" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/startplay"
+           android:layout_alignBottom="@+id/startplay"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="41dp"
+           android:text="LIVE:" />
+
+       <Button
+           android:id="@+id/stopplay"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Channel"
+           android:layout_toRightOf="@+id/find"
+           android:text="stop" />
+
+       <Button
+           android:id="@+id/pause"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textView2"
+           android:layout_alignParentBottom="true"
+           android:text="pause" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/pause"
+           android:layout_alignLeft="@+id/textView1"
+           android:layout_marginBottom="21dp"
+           android:text="PLAYBACK:" />
+
+       <Button
+           android:id="@+id/find"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/resume"
+           android:layout_toRightOf="@+id/textView2"
+           android:text="find" />
+
+       <Button
+           android:id="@+id/Button01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/startplay"
+           android:layout_below="@+id/stopplay"
+           android:text="on" />
+
+       <Button
+           android:id="@+id/Button02"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/Button01"
+           android:layout_alignBottom="@+id/Button01"
+           android:layout_alignLeft="@+id/stopplay"
+           android:text="off" />
+
+       <TextView
+           android:id="@+id/TextView01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/Button01"
+           android:layout_alignBottom="@+id/Button01"
+           android:layout_alignLeft="@+id/textView1"
+           android:text="TALK:" />
+
+</RelativeLayout>
