@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 
 /*            ʵʱ��Ƶ��������
  * 1.��ʼ����Ƶ��ʾ���ڣ�
@@ -27,10 +27,7 @@ import com.sdk.NETDEV_PLAYBACKCONTROL_S;
 import com.sdk.NETDEV_AUDIO_SAMPLE_PARAM_S.NETDEV_AUDIO_SAMPLE_FORMAT_E;
 
 import android.app.Activity;
-import android.graphics.PixelFormat;
 import android.os.Bundle;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
@@ -41,8 +38,9 @@ import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
-import android.media.AudioTrack.OnPlaybackPositionUpdateListener;
 import android.media.MediaRecorder;
+
+
 /*ʵʱ���Ž���*/
 public class LiveActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 
 
 import com.sdk.NETDEV_CLOUD_DEV_INFO_S;
@@ -28,6 +28,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+
+
 /*�ƶ��豸��¼����*/
 public class CloudDevloginActivity extends Activity {
 

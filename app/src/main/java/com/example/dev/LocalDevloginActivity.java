@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 /*              �����豸��¼����
  * 1.��ȡNetDEVSDK.NETDEV_Login��������ֵ��ΪglpUserID���û���¼ID
  * 2.��glpUserID��Ϊ0��������ת��LiveActivityʵʱ���Ž��棻
@@ -15,6 +15,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+
+
 /*�豸��¼����*/
 public class LocalDevloginActivity extends Activity {
 
@@ -42,9 +44,7 @@ public class LocalDevloginActivity extends Activity {
 				{
 					startActivity(intent);
 				}
-							
 			}
-			
 		});
 		
 		/*ע���豸*/
@@ -56,7 +56,6 @@ public class LocalDevloginActivity extends Activity {
 				
 				NetDEVSDK.NETDEV_Logout(NetDEVSDK.glpUserID);
 				NetDEVSDK.glpUserID = 0;
-				
 			}
 		});
 	}

@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 /*            ���豸��¼����
  * 1.��ȡNetDEVSDK.NETDEV_LoginCloud����ֵ��ΪglpcloudID�����˻���¼ID��
  * 2.��glpcloudIDΪ��λ�ȡ�豸��¼ID��glpUserID����ȡʱ����oCloudDevInfo.szDevicePassword���޵��ò�ͬ�ĺ�����NETDEV_LoginByDynamic��NETDEV_LoginCloudDev��
@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+
+
 /*�ƶ��˺ŵ�¼*/
 public class CloudLoginActivity extends Activity {
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/dev/MainActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/sdk/NETDEV_AUDIO_SAMPLE_PARAM_S.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/sdk/NETDEV_DEVICE_INFO_S.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/sdk/NETDEV_FILECOND_S.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/sdk/NETDEV_VIDEO_CHL_DETAIL_INFO_S.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/sdk/NetDEVSDK.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/ipcamera/zealens/com/ipcamera/MainActivity.java" charset="UTF-8" />
   </component>
 </project>

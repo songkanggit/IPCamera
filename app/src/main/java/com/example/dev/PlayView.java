@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;

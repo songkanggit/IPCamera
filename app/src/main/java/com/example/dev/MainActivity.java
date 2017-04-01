@@ -1,4 +1,4 @@
-package ipcamera.zealens.com.ipcamera;
+package com.example.dev;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+
 /*?????*/
 public class MainActivity extends Activity {
 
@@ -28,7 +30,7 @@ public class MainActivity extends Activity {
 					startActivity(intentdev);
 				}
 		});
-        
+
         
         /*????????????*/ 
         cloud.setOnClickListener(new OnClickListener() {
